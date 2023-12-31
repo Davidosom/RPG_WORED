@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raças</title>
+    <link rel="stylesheet" href="15Racas.css">
+</head>
+
+<body>
+    <h1 class="titulo">O que são raças?</h1>
+    <p class="texto">Raças são diferentes variações da raça humana, ou as vezes não, que dão diferentes tipos de <br>
+        vantagens e desvantagens.Quando escolher uma raça lembre-se de escolher uma que faça sentido para a sua <br>
+        lore/história.</p>
+    <h1 class="subtitulo">Raças</h1>
+    <!--Anjo-->
+    <button id="Anjo" class="button">Anjo</button> <br>
+    <div class="texto" id="anjo" style="display: none;">
+        Uma raça de seres descentes de anjos, que por conta disso tem poderes divinos e habilidades sagradas. Grande
+        parte dos descendentes dos anjos ou foram leiloa-dos ou escravizados, pois encontrar um anjo é raro e eles
+        são extremamentes belos e suas asas valem muito.<br>
+        Relações:<br>
+        Gostam: druidas, yamons, fadas<br>
+        Neutros: elementais, aquáticos, bestiais<br>
+        Odeiam: humanos, infectados, demônios, draconatos, vampiros<br>
+        +6 pv<br>
+        +2 man<br>
+        § Habilidade passiva:<br>
+        • Santo: Um anjo não pode ser amaldiçoado ou receber fraqueza.<br>
+        § Habilidade ativa:<br>
+        • Santidade: O anjo é capaz de criar uma aura em volta de si que cura 1d6 para os aliados por 2 turnos
+        (recarga<br>
+        de 6 turnos).</div>
+    <!--Aquático-->
+    <button id="Aquático" class="button">Aquático</button><br>
+    <div class="texto" id="aquático" style="display: none;">
+        Uma raça que evoluiu para se adaptar a pressão e respiração da água assim se tornando uma<br>
+        espécie forte e resistente a água e golpes físicos, sendo támbem otimos lutadores.<br>
+        Relações:<br>
+        Gostam: humanos, druidas, fadas<br>
+        Neutros: bestiais, anjos, yamons, elementais<br>
+        Odeiam: demônios, draconatos, infectados<br>
+        +2 pv<br>
+        +1 def (física e mágica)<br>
+        § Habilidade passiva:<br>
+        • Vida aquática: Pode respirar embaixo da água e não sofre dano para ataques de água.<br>
+        § Habilidade ativa:<br>
+        • Ajuda marítima: Um aquático pode gastar 15 de mana para pedir ajuda a todas as criaturas marinhas
+        próximas.<br>
+    </div>
+    <!--Bestial-->
+    <button id="Bestial" class="button">Bestial</button><br>
+    <div class="texto" id="bestial" style="display: none;">
+        Uma raça que varia entre humanoide ou mais animalesco, sempre juntando 1 ou mais animais.
+        Essa raça é uma predadora nata, são uma raça muito fortes fiicamentes. São a 3º maior população do mundo
+        alguns são pacifícos e outros não, por conta de seus instintos animais.<br>
+        Relações:<br>
+        Gostam: draconatos, druidas, vampiros, humanos<br>
+        Neutros: yamons, fadas, aquáticos, anjos<br>
+        Odeiam: infectados, elementais, demônios<br>
+        +5 pv<br>
+        +1 agi<br>
+        § Habilidade passiva:<br>
+        • Predação: O bestial tem +1 em teste em ataques com armas brancas.<br>
+        § Habilidade ativa:<br>
+        • Investida feroz: O bestial pode fazer uma investida e dar 1d12 de dano (recarga de 4 turnos).<br>
+    </div>
+    <!--Druida-->
+    <button id="Druida" class="button">Druida</button><br>
+    <div class="texto" id="druida" style="display: none;">
+        Uma raça de espiritos que lutam pela natureza, eles têm ainda mais ódio dos carniceiros, pois
+        eles destroem as florestas e toda e qualquer mata, trazendo uma destrição mundial por isso os druidas
+        lutam tanto.<br>
+        Relações:<br>
+        Gostam: bestiais, aquáticos, elementais, yamons<br>
+        Neutros: draconatos, humanos, anjoss<br>
+        Odeiam: infectados, vampiros, demônio<br>
+        +2 def (mágica)<br>
+        +2 man<br>
+        § Habilidade passiva;<br>
+        • Natural: + 2 em testes de magia.<br>
+        § Habilidade ativa:<br>
+        • Vida selvagem: O druida é capaz de entrar em seu modo naturalista, assim ficando com o dobro do dano por 3
+        turnos (recarga de 6 turnos)<br>
+    </div>
+    <!--Demônio-->
+    <button id="Demônio" class="button">Demônio</button><br>
+    <div class="texto" id="demônio" style="display: none;">
+        Uma raça descendente de demônios ancestrais, que por conta disso tem poderes demôniacos, a grande maioria
+        dos
+        demônios são ricos ou vendidos por serem bonitos e terem asas belas, e por possuirem um voo super rápido.<br>
+        Relações:<br>
+        Gostam: draconatos, vampiros<br>
+        Neutros: yamons, elementais, aquáticos, bestiais<br>
+        Odeiam: humanos, druidas, infectados, fadas, anjos<br>
+        +6 pv<br>
+        +2 for<br>
+        § Habilidade passiva:<br>
+        • Satanista: Um demônio não pode ser queimado ou amaldiçoado.<br>
+        § Habilidade ativa:<br>
+        • Fogo ardente: O demônio pode gastar 5 de mana e se transformar em uma versão de si mesmo só que mais forte
+        dando queimadura e 1,5x mais dano (dura 3 turnos e recarga de 6 turnos).
+    </div>
+    <!--Draconato-->
+    <button id="Draconato" class="button">Draconato</button><br>
+    <div class="texto" id="draconato" style="display: none;">
+        Uma raça forte e em sua maioria humanoide. Os draconatos são considerados a raça que nasceu
+        para a guerra, são extremamente fortes e resistentes a golpes, por conta de sua força os humanos os
+        escravizaram no passado e os draconatos têm uma quatia de ódio imensa contra os humanos.;<br>
+        Relações:<br>
+        Gostam: bestiais, elementais, yamons<br>
+        Neutros: druidas, aquáticos, anjos, demônios<br>
+        Odeiam: infectados, humanos, vampiros<br>
+        +8 pv<br>
+        +2 def (física)<br>
+        § Habilidade passiva:<br>
+        • Carne e osso: Quando estiver sem armadura um draconato leva -3 de atq mágico e -5 de atq físico.<br>
+        § Habilidade ativa:<br>
+        • Bafo dracônico: O draconato pode gastar 5mp para dar 2d8 de dano do elemento que escolher (recarga de 4
+        turnos).<br>
+        • Elementos possíveis: Fogo, gelo, elétrico, vento.
+    </div>
+    <!--Encarnal-->
+    <button id="Elementais" class="button">Encarnal</button><br>
+    <div class="texto" id="elementais" style="display: none;">
+        Uma raça humanoide que em sua maioria tem uma ou mais partes do corpo feitas de algum
+        elemento de sua escolha, não podendo muda-lo até o fim de sua vida em sua maioria lutam pela paz
+        mundial.<br>
+        Relações:<br>
+        Gostam: humanos, draconatos, druidas<br>
+        Neutros: demônios, yamons, aquáticos, bestiais<br>
+        Odeiam: fada, anjos, infectados,vampiros<br>
+        +2 man<br>
+        +2 def (mágica)<br>
+        § Habilidade passiva:<br>
+        • Naturalista: O elemental tem vantagem quando usar magias do seu elemento.<br>
+        § Habilidade ativa:<br>
+        • Fusão elemental: O elemental pode gastar 10 de mana para fazer dois ataques diferentes com o mesmo elemento no
+        mesmo turno (recarga de 6 turnos).<br>
+    </div>
+    <!--Fada-->
+    <button id="Fada" class="button">Fada</button><br>
+    <div class="texto" id="fada" style="display: none;">
+        Uma raça de humanoides que são pequenas por serem descentes de seres abençoados, as fadas tem
+        poderes que envolvem a cura e ajuda ao proximo as fadas são uma raça muita amada por muitos por conta de
+        sua cura.<br>
+        Relações:<br>
+        Gostam: druidas, bestiais, encarnal, yamons, anjos<br>
+        Neutros: humanos, aquáticos, vampiros<br>
+        Odeiam: infectados, draconatos, demônios<br>
+        +3 agi<br>
+        +1 man<br>
+        § Habilidade passiva:<br>
+        • Pequeno mas veloz: Pelo fato de ser pequeno sempre que entrar em batalha e você ver um ataque (físico) tem
+        vantagem.<br>
+        § Habilidade ativa:<br>
+        • Toque consagrado: A fada pode gastar 5 de mana para curar 1d6 de vida +1d20 de mana (recarga de 5
+        turnos).<br>
+    </div>
+    <!--Humano-->
+    <button id="Humano" class="button">Humano</button><br>
+    <div class="texto" id="humano" style="display: none;">
+        Uma das maiores raças em que questão populacional, e cientifica com capacidades físicas medianas,
+        mas ainda sim são uma raça odiada por muitos povos por conta do que fizeram e ainda fazem. O maior
+        pecado da humanida é escravizar e vender outras raças, quem começou a guerra mundial foram os humanos. <br>
+        Relações: <br>
+        Gostam: druidas, yamons, fadas, anjos<br>
+        Neutros: bestiais, aquáticos, draconatos, encarnal<br>
+        Odeiam: vampiros, infectados, demônios<br>
+        +5 pv<br>
+        +1 int<br>
+        § Habilidade passiva:<br>
+        • Afiado: +1 quando usar ataques com armas de fogo, e +1 em armas brancas.<br>
+        § Habilidade ativa:<br>
+        • Visão sangrenta: O humano fica louco e por conta disso pode fazer ataques e contra-ataques garantidos (dura
+        3
+        turnos com recarga de 6 tunos), mas não pode dar crítico.<br>
+    </div>
+    <!--Vampiro-->
+    <button id="Vampiro" class="button">Vampiro</button><br>
+    <div class="texto" id="vampiro" style="display: none;">
+        Uma espécie naturalmente violenta e sanguinária que adora o sangue de quase tudo. Eles sempre estão
+        prontos para uma luta, e sua sede de sangue os torna violentos contra quase tudo. Suas relações com outras
+        raças se define quase sempre pelo sabor de seu sangue.<br>
+        Relações: <br>
+        Gostam: humanos, fadas, draconato<br>
+        Neutro: yamon, demônios, bestial<br>
+        Odeiam: encarnal, aquáticos, anjos, infectado, druida<br>
+        <br>
+        +7 pv<br>
+        +2 for<br>
+        § Habilidade passiva:<br>
+        • Sombrio: Em lugares escuros o vampiro dá 1,5x mais dano.<br>
+        § Habilidade ativa:<br>
+        • Sangue-suga: O vampiro pode sugar sangue que recupera 1d10 de vida (recarga de 5 turnos).<br>
+    </div>
+    <!--Yamon -->
+    <button id="Yamon" class="button">Yamon</button><br>
+    <div class="texto" id="yamon" style="display: none;">
+        Uma raça que vive por mais tempo que os humanos sendo lembrados por uma parte
+        de seu povo indo para um lado de pesquisas e magias, enquanto o outro ia para o lado da musculação e força. Os
+        Yamons tem uma forma humanoide, mas são feitos de algo como um lodo preto grudento e gosmento. Por conta de
+        serem feitos de lodo, eles podem moldar sua forma, mas isso demora algumas horas.<br>
+        Relações:<br>
+        Gostam: encarnal, demônios, bestiais<br>
+        Neutros: Vampiros, aquáticos, draconato, druida<br>
+        Odeiam: infectados, humanos, anjos, fadas<br>
+        <br>
+        <br>
+        ¢ Curicitius<br>
+        +2 pv<br>
+        +2 int<br>
+        +2 man<br>
+        § Habilidade passiva:<br>
+        • Sabichão: A variação de Curicitius da raça Yamon que se dedicou a magias e estudos e por conta disso,
+        qualquer
+        ação que envolva inteligência ou sabedoria tem +1 no teste.<br>
+        § Habilidade ativa:<br>
+        • Eu pensei em tudo: O Curicitius gasta sua rodada para analisar um adversário e ter vantagem nas esquivas e
+        ataques por 2 turnos próprios (recarga de 8 turnos).<br>
+        <br>
+        ¢ Fortaquilius<br>
+        +2 pv<br>
+        +2 for<br>
+        +2 agi<br>
+        § Habilidade passiva:<br>
+        • Bodybuilder: A variação de Fortaquilius da raça Yamon que se dedicou a musculação e busca de um corpo
+        supremo
+        e que por conta disso, qualquer ação que envolva força ou destreza tem +1 no teste.<br>
+        § Habilidade ativa:<br>
+        • O monstro saiu da jaula: O Fortaquilius gasta sua rodada para fazer disputa de força com um adversário e se
+        o
+        adversário falhar na disputa de força ou destreza, o Fortaquilius ganha vantagem nos golpes (recarga de 9
+        turnos).
+    </div>
+    <script src="15Racas.js"></script>
+</body>
+
+</html>
