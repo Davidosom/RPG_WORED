@@ -28,4 +28,5 @@ div{
     border-radius: 1%;
     border:solid black;
     flex-wrap: wrap;
+    cursor:default;
 }
