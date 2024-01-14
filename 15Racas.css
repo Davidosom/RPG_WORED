@@ -30,3 +30,7 @@ div {
     flex-wrap: wrap;
     cursor: default;
 }
+
+a {
+    color: rgb(76, 167, 255);
+}
