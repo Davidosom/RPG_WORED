@@ -1,3 +1,7 @@
+document.getElementById('Anao').onclick = function () {
+    var mensagem = document.getElementById('anao');
+    mensagem.style.display = (mensagem.style.display == 'none' ? 'block' : 'none');
+};
 document.getElementById('Anjo').onclick = function () {
     var mensagem = document.getElementById('anjo');
     mensagem.style.display = (mensagem.style.display == 'none' ? 'block' : 'none');
